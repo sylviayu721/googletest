@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.sylviayu.testcases.TCGoogle">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="TCGoogle_Smoke_001"/>
+        </methods>
+      </class> <!-- com.sylviayu.testcases.TCGoogle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [test suite] -->

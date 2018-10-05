@@ -1,0 +1,36 @@
+{
+		 "common" : 
+		 {
+		 	"pageName" : "common",
+		 	"mainUrl" : "https://www.google.ca"
+		 },
+		 "google" :
+		 {
+		 	"pageName" : "google",
+		 	"inputSearch" : "input[name=q]",
+		 	"searchSelenium" : "Selenium",
+			"btnGoogleSearch" : "input[name='btnK']",
+			"btnIFeelLucky" : "input[name=btnI]",
+			"btnSearchByVoice" : "#gsri_ok0",
+			"linkFrench" : "#SIvCob>a",
+			"linkAbout" : "#hptl>a:nth-last-of-type(2)",
+			"linkStore" : "#hptl>a:nth-last-of-type(1)",
+			"linkGmail" : "div>a.gb_P[href*='mail']",
+			"linkImage" : "div>a.gb_P[href*='img']",
+			"linkAdvertising" : "a[href*='ads']",
+			"linkBusiness" : "a[href*='services']",
+			"linkPrivacy" : "a[href*='policies/privacy']",
+			"linkTerms" : "a[href*='policies/terms']",
+			"linkPreferences" : "a[href*='preferences']",
+			"tabSearchSettings" : "#fsett>a[href*='preferences']"
+		 },
+		 "searchResult" :
+		 {
+		 	"pageName" : "search result",
+		 	"tabAll" : "#hdtb-msb-vis>div:nth-last-of-type(5)",
+		 	"tabImages" : "#hdtb-msb-vis>div:nth-last-of-type(4)",
+		 	"tabVideos" : "#hdtb-msb-vis>div:nth-last-of-type(3)",
+		 	"tabNews" : "#hdtb-msb-vis>div:nth-last-of-type(2)",
+		 	"tabShopping" : "#hdtb-msb-vis>div:nth-last-of-type(1)"
+		 }
+}
