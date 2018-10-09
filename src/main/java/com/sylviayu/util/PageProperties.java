@@ -18,6 +18,7 @@ public class PageProperties {
     	public String inputSearch;
     	public String searchSelenium;
     	public String btnGoogleSearch;
+    	public String btnGoogleSearchDropDown;
     	public String btnIFeelLucky;
     	public String btnSearchByVoice;
     	public String linkFrench;

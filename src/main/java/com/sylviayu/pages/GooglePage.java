@@ -22,10 +22,8 @@ public class GooglePage extends WebPage {
         inputValue(_prop.inputSearch, value);
     }
 
-    public void clickGoogleSearchButton() {
-    	clickBlankArea("//html");
-    	Util.delay(2);
-        clickElement(_prop.btnGoogleSearch);
+    public void clickGoogleSearchButtonDropDown() {
+        clickElement(_prop.btnGoogleSearchDropDown);
     }
 
     public void clickIFeelingLucky() {
@@ -88,7 +86,7 @@ public class GooglePage extends WebPage {
     public void verifySwichingToGmailPage() {
         switchToNewPage();
         String url = mDriver.getCurrentUrl();
-        Assert.assertTrue(url.contains("gmail"));
+        Assert.assertTrue(url.contains("mail"));
     }
 
     public void verifySwichingToImagesPage() {
@@ -109,16 +107,22 @@ public class GooglePage extends WebPage {
         Assert.assertTrue(url.contains("services"));
     }
     
+    public void verifySwichingToPrivacyPage() {
+        switchToNewPage();
+        String url = mDriver.getCurrentUrl();
+        Assert.assertTrue(url.contains("privacy"));
+    }
+    
     public void verifySwichingToTermsPage() {
         switchToNewPage();
         String url = mDriver.getCurrentUrl();
-        Assert.assertTrue(url.contains(_prop.searchSelenium));
+        Assert.assertTrue(url.contains("terms"));
     }
     
     public void verifySwichingToSettingsPage() {
         switchToNewPage();
         String url = mDriver.getCurrentUrl();
-        Assert.assertTrue(url.contains("prefences"));
+        Assert.assertTrue(url.contains("preferences"));
     }
 
 }

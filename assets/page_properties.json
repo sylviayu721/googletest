@@ -10,6 +10,7 @@
 		 	"inputSearch" : "input[name=q]",
 		 	"searchSelenium" : "Selenium",
 			"btnGoogleSearch" : "input[name='btnK']",
+			"btnGoogleSearchDropDown" : ".lsbb>input[value='Google Search']",
 			"btnIFeelLucky" : "input[name=btnI]",
 			"btnSearchByVoice" : "#gsri_ok0",
 			"linkFrench" : "#SIvCob>a",
@@ -19,8 +20,8 @@
 			"linkImage" : "div>a.gb_P[href*='img']",
 			"linkAdvertising" : "a[href*='ads']",
 			"linkBusiness" : "a[href*='services']",
-			"linkPrivacy" : "a[href*='policies/privacy']",
-			"linkTerms" : "a[href*='policies/terms']",
+			"linkPrivacy" : "a[href*='privacy']",
+			"linkTerms" : "a[href*='terms']",
 			"linkPreferences" : "a[href*='preferences']",
 			"tabSearchSettings" : "#fsett>a[href*='preferences']"
 		 },

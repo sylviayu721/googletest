@@ -5,18 +5,16 @@
 		<classes>
 			<class name="com.sylviayu.testcases.TCGoogle">
 				<methods>
-					<include name="TCGoogle_Smoke_001" /> 
-					<!-- 
+					<include name="TCGoogle_Smoke_001" />  
 			        <include name="TCGoogle_Smoke_002" /> 
-			   		<include name="TCGoogle_Smoke_003" />
+			   		<include name="TCGoogle_Smoke_003" /> 
 			   		<include name="TCGoogle_Smoke_004" />
-					<include name="TCGoogle_Smoke_005" />
-			        <include name="TCGoogle_Smoke_006" />
-			        <include name="TCGoogle_Smoke_007" /> 
-			        <include name="TCGoogle_Smoke_008" /> 
+					<include name="TCGoogle_Smoke_005" />					
+			        <include name="TCGoogle_Smoke_006" />			        
+			        <include name="TCGoogle_Smoke_007" /> 			        
+			        <include name="TCGoogle_Smoke_008" /> 			       
 			        <include name="TCGoogle_Smoke_009" /> 
 			        <include name="TCGoogle_Smoke_010" /> 
-			         -->
 				</methods>
 			</class>
 		</classes>

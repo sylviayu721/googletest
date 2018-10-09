@@ -25,7 +25,7 @@ import com.sylviayu.util.Util;
 	        GooglePage googlePage = new GooglePage(mDriver,mProp);
 
 	        googlePage.inputSearchString(mProp.google.searchSelenium);
-	        googlePage.clickGoogleSearchButton();
+	        googlePage.clickGoogleSearchButtonDropDown();;
 	        
 	        // verify search result page should be launched
 	        SearchResultPage searchResultPage = new SearchResultPage(mDriver,mProp);
@@ -130,7 +130,7 @@ import com.sylviayu.util.Util;
 	        // click About link
 	    	googlePage.clickPrivacy();
 	    	//verify switch to Privacy page
-	    	googlePage.verifySwichingToBusinessPage();
+	    	googlePage.verifySwichingToPrivacyPage();
 	    	//go back google page;
 	    	mDriver.navigate().back();
 	    }
