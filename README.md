@@ -2,7 +2,9 @@
 
 This project is about a small Maven project with Selenium and TestNG embedded to make it easy to get started UX/UI testing.
 
-This project takes google search page for example to provide complete framework to start a web application UX/UI testing, 
+This project takes google search page for example to provide complete framework to start a web application UX/UI testing.
+
+This project is just a sample, in real project, I will design more reusable and salable test cases according project requirements.
 
 ### To install the archetype in your local repo:
 
